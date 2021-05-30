@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 
 import { useRef, useState, useEffect } from 'react';
 
 
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+
+/* eslint-disable no-unused-vars */
 
 mapboxgl.accessToken = 'pk.eyJ1IjoibWNnYWZmaW4iLCJhIjoiY2twYjRsbTg2MHZhMDJ1bnhweDRra253ZCJ9.9TmS9oQA44INeUljuDApCA';
 function App() {
